@@ -19,13 +19,12 @@ int main() {
     int a, b;
     int sum, diff, prod, quo;
 
-    // input two numbers
     scanf("%d %d", &a, &b);
 
     sum = a + b;
     diff = a - b;
-    prod = a * b;
-    quo = a / b;   // integer division
+    prod = a*b;
+    quo = a / b;   
 
     printf("Sum=%d, Diff=%d, Product=%d, Quotient=%d", sum, diff, prod, quo);
 
